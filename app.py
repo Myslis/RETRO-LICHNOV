@@ -89,7 +89,7 @@ def process_image(img, age, exposure, tint, vignette):
 
 # --- UI APLIKACE ---
 st.title("🚂 LICHNOV RETRO STUDIO")
-st.write("Ateliér historické fotografie | Marcel Balon")
+st.write("Franckův ateliér historické fotografie")
 st.markdown("---")
 
 uploaded_file = st.file_uploader("Vyberte snímek z kolejiště...", type=["jpg", "jpeg", "png"])
